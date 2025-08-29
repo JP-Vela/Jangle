@@ -1,0 +1,1 @@
+I think this is happening because it is not recording the current state but the state at which it was created

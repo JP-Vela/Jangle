@@ -1,0 +1,121 @@
+$primary: #ed6c52;
+$background: #1e1e1e;
+
+.link-form{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: auto;
+    align-items: 'center'; // vertical alignment 
+
+    display: flex;
+    align-items: 'center'; // vertical alignment
+
+    padding: 15px;
+}
+
+.btn {
+    white-space: nowrap;   // prevent text wrapping
+    height: 40px;         // match TextField height (adjust as needed)
+    flex-shrink: 0;         // don’t let button shrink in flex layout
+}
+
+.toggle-group {
+    white-space: nowrap;   // prevent text wrapping
+    height: 40px;         // match TextField height (adjust as needed)
+    flex-shrink: 0;       // don’t let button shrink in flex layout
+    position:relative;
+    left: 20px;
+}
+
+.margin-left-small {
+    left: 10px;
+}
+
+.margin-left-large {
+    left: 20px;
+}
+
+.margin-top-large {
+    top: 20px;
+}
+
+.downloads-container {
+    padding-left:20px;
+}
+
+.data-body {
+    // border:3px solid white;
+    margin-top:20px;
+    height: 30rem;
+    line-height: 15px;
+
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+
+    .grid-col {
+        min-width: 150px;
+        width: fit-content;
+
+        color:white;
+        padding: 15px;
+
+        &-40{
+            width: 40%;
+        }
+
+        &-50{
+            width: 50%;
+        }
+
+        &-60{
+            width: 60%;
+        }
+    }
+
+    .line-item {
+        color:white;
+        word-break: break-all;
+        font-size: 12px;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    #videos-header{
+        text-align: center;
+        border-bottom: 4px solid $primary;
+    }
+
+    #downloads-header{
+        text-align: center;
+        border-bottom: 4px solid $primary;
+    }
+}
+
+
+/* SplitPane.css */
+.w-split-bar {
+  background-color: $primary; /* Dark gray bar */
+  transition: background-color 0.3s;
+  color: $primary;
+
+  --w-split-bar-shadow: #ed6c52;
+}
+
+.w-split-bar:hover {
+  background-color: #ed6c52 !important;
+  --w-split-bar-shadow: #1e1e1e !important;
+}
+
+
+.check-icon {
+    margin-right: 5px;
+    font-size: 12px !important;
+}
+
+.position-relative {
+    position: relative;
+}
