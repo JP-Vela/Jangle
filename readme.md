@@ -7,9 +7,9 @@ It supports downloading audio-only or full video and displays real-time download
 
 ## 🚀 Features
 
-- Download videos from YouTube
+- Download a list of videos from YouTube
 - Option to download **MP3** or **MP4**
-- Real-time status updates via Electron IPC
+- Real-time status updates
 - Built with Electron + React for cross-platform desktop support
 
 ---
@@ -23,7 +23,10 @@ git clone https://github.com/yourusername/video-downloader.git
 cd Jangle
 npm install
 
-npm run dev```
+npm run dev
+```
+
+Download and install **[FFmpeg](https://ffmpeg.org/)**
 
 ## ✅ TODO / Roadmap
 
