@@ -23,7 +23,7 @@ git clone https://github.com/yourusername/video-downloader.git
 cd Jangle
 npm install
 
-npm run dev
+npm run dev```
 
 ## ✅ TODO / Roadmap
 
